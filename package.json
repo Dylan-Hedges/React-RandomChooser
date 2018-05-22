@@ -1,0 +1,23 @@
+{
+  "name": "react-randomchooser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylan-Hedges/React-RandomChooser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylan-Hedges/React-RandomChooser/issues"
+  },
+  "homepage": "https://github.com/Dylan-Hedges/React-RandomChooser#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1"
+  }
+}
