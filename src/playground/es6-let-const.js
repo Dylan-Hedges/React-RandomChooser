@@ -2,7 +2,7 @@ var nameVar = 'Andrew';
 var nameVar=1;
 console.log('nameVar =', nameVar);
 
-let nameLet = 'Andrew';
+let nameLet = 'Andreaw';
 nameLet = 'John';
 console.log('nameLet =', nameLet);
 
