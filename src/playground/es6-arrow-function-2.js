@@ -46,14 +46,25 @@ const user = {
 //user.printPlacesLived2();
 
 //.map function - loop through and transform the functions in array
-const user = {
-  name: 'Andrew',
-  cities: ['Philly', 'New York', 'Dublin'],
-  printPlacesLived () {
-    const cityMessages = this.cities.map((city) => {
-      return this.name = ' has lived in ' + city;
-    });
-    return cityMessages;
+// const user = {
+//   name: 'Andrew',
+//   cities: ['Philly', 'New York', 'Dublin'],
+//   printPlacesLived () {
+//     const cityMessages = this.cities.map((city) => {
+//       return this.name = ' has lived in ' + city;
+//     });
+//     return cityMessages;
+//   }
+// };
+//console.log(user.printPlacesLived());
+
+
+const multiplier = {
+  numbers: [2,4,6],
+  multiplyBy: 2,
+  multiply() {
+    return this.numbers.map((number) => number * this.multiplyBy);
   }
 };
-console.log(user.printPlacesLived());
+
+console.log(multiplier.multiply());
